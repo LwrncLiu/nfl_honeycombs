@@ -17,8 +17,9 @@
             margin: auto;
         }
 
-        .content {
+        .all .content {
             position: relative;
+            text-align: center;
         }
 
         .content .svg_div {
@@ -27,8 +28,8 @@
             left: 200px;
         }
 
-        .heading .content {
-            text-align: center;
+        .heading {
+            margin: auto;
         }
 
         .heading h1 {
@@ -80,17 +81,19 @@
     <script type="module" src="app.js" defer></script>
 </head>
 <body>
-    <div class="heading">
-        <div class="content">
-            <h1>NFL Bee Hives</h1>
-            <h5>The 2020-2021 NFL Season reimagined as bee hives<br/><br/>(Inspired by Shirley Wu's <a href="https://shirleywu.studio/filmflowers/" target="_blank">film flowers</a>)</h5>
-            <svg class="svg_header"></svg>
-        </div>
-    </div>
     <div class="all">
-        <div class="content">
-            <div class="svg_div"><svg class="svg_body"></svg></div>
-            <div class='divisions'></div>
+        <div class="heading">
+            <div class="content">
+                <h1>NFL Bee Hives</h1>
+                <h5>The 2020-2021 NFL Season reimagined as bee hives<br/><br/>(Inspired by Shirley Wu's <a href="https://shirleywu.studio/filmflowers/" target="_blank">film flowers</a>)</h5>
+                <svg class="svg_header"></svg>
+            </div>
+        </div>
+        <div class="body">
+            <div class="content">
+                <div class="svg_div"><svg class="svg_body"></svg></div>
+                <div class='divisions'></div>
+            </div>
         </div>
     </div>
 
