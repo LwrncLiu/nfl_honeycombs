@@ -88,8 +88,6 @@ var headingXSpacing = 120;
 var headingXPadding = 60;
 
 var heading = d3.select('.svg_header')
-    .attr('width', headingXSpacing * 5)    
-    .attr('height', 170)
     .append('g');
 
 var heading_values = [
