@@ -1,4 +1,8 @@
-import games from './games_2021.json' assert {type: 'json'};
+// import games from './games_2021.json' assert {type: 'json'};
+
+d3.json('games_2021.json').then(
+    function(games) {
+
 
 // sort games by team then division
 games.sort((x, y) => {
@@ -331,4 +335,4 @@ var crown = teams.selectAll('crown')
     .attr("x", -40/2)
     .attr("y", -45/2)
     .raise();
-    
+    });
